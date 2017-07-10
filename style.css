@@ -1,0 +1,191 @@
+body {
+	font-family: "Microsoft YaHei", serif;
+	background-color: #eee;
+}
+
+.whole {
+	background-color: #ddd;
+	box-shadow: 0px 2px 3px #ccc;
+	margin-top: 80px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.head {
+	height: 80px;
+	background-color: #333;
+	width:100%;
+	position: relative;
+
+}
+
+.head h1 {
+	position: absolute;
+	left:20px;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	color:#fff;
+	height: 60px;
+	line-height: 60px;
+}
+
+.head ul {
+	position: absolute;
+	top:0;
+	bottom:0;
+	right:20px;
+	margin:auto;
+	height:20px;
+}
+
+.head li {
+	float:left;  /* 设置为display:inline之后，变成内联元素，前面的小点消失；用float不会消失；*/
+	color:red;
+	margin-right: 20px;
+	list-style: inside disc;
+	width:100px;
+}
+/*
+.clear {
+	clear: both;
+}
+
+.head h1 {
+	float:left;
+	color: white;
+	padding-left: 20px;
+}
+
+.head ul {
+	float:right;
+	margin-top: 30px;
+	width:33%;
+}
+
+.head ul li {
+	float:left;
+    padding: 0px;
+    margin-right:20px;
+    font-weight: bold;
+    color:blue;
+    width: 80px;
+}
+*/
+.head ul a {
+	color:white;
+	text-decoration: none;
+}
+
+.head ul li:nth-child(4) a {
+	color:#ccc;
+}
+
+.firstpart, .secondpart, .thirdpart, .picture, .fourthpart {
+	margin:30px;
+	background-color: #fff;
+	box-shadow: 2px 2px 0 2px  #aaa;
+	padding:30px 20px;
+}
+
+h3,h3 + p {
+    color:#aaa;
+}
+
+.picture li {
+	border:1px solid #aaa;
+	width:455px;
+	text-align: center;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+.picture li img {
+	margin-top: 15px;
+}
+
+.thirdpart table {
+	width:100%;
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+.thirdpart table,th,td,tr {
+	border: 1px solid #ddd;
+	height: 25px;
+	padding-left: 5px;
+}
+
+.thirdpart th {
+	background-color: #333;
+	color:#fff;
+	border-right: 1px solid white;
+}
+
+.thirdpart table tr:nth-child(5) td {
+	background-color: #ddd;
+	border: 1px solid #ddd;
+	font-weight: bold;
+}
+
+.fourthpart h2 {
+	border-left: 3px solid #bbb;
+	padding-left: 5px;
+	height: 50px;
+	line-height: 50px; 
+}
+
+table.form {
+	margin-left: 250px;
+	border-collapse: collapse;
+	border:0;
+}
+
+table.form th {
+	text-align:right;
+	padding-right: 10px;
+	border:0;
+}
+
+table.form td {
+	text-align: left;
+	border:0;
+}
+
+table.form tr{
+	border:0;
+}
+
+table.form tr:nth-child(2), table.form tr:nth-child(5) {  /* tr冒号后面不能加空格，加了之后css失效*/
+	color:#aaa;
+	font-size: 0.5em;
+}
+
+#textarea {
+	width:500px;
+	height:100px;
+}
+
+.button {
+	width:100%;
+	text-align: center;
+	background-color: #34f;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 20px;
+	color: #fff;
+}
+
+footer {
+	background-color: #000;
+	text-align:center;
+	color:#fff;
+	height: 60px;
+	line-height: 60px;
+}

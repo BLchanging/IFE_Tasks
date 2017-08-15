@@ -1,0 +1,440 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+body{
+	background: #ccc;
+}
+
+.container {
+	width: 980px;
+	background: #fff;
+	margin:0 auto;
+	padding:0 44px;
+	box-sizing: border-box;
+}
+/****header区域****/
+.header {
+	width: 892px;
+	border-bottom: 2px solid #938e8c;
+	height: 61px;
+	margin:0 auto;
+}
+
+.header .logo {
+	width: 110px;
+	height: 100%;
+	font-size: 12px;
+	color: #fff;
+	font-family: "SimHei";
+	background: #d45d5c;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 42px;
+	padding-left: 6px;
+}
+
+.header .date {
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: "SimHei";
+	float: right;
+	padding-top: 42px;
+}
+
+/****topic区域****/
+.topic {
+	margin-top: 62px;
+	height: 301px;
+}
+
+.topic .img {
+	width: 641px;
+	height: 301px;
+	background: url(big3.jpg) no-repeat;
+	float: left;	/*此处的float是为了与右边的文字模块并排*/
+}
+
+.topic .img .left {
+	width: 191px;
+	height: 301px;
+	background: #a0c5ac;
+	filter: alpha(opacity=60);
+	-moz-opacity:0.6;
+	opacity:0.6;
+	float: left;
+}
+
+.topic .img .right {
+	width: 191px;
+	height: 301px;
+	background: #e5babf;
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity:0.5;
+	float: right;
+}
+
+.topic .text {
+	width: 203px;
+	height: 301px;
+	box-sizing: border-box;
+	border-top: 2px solid #cc8091;
+	float: left;
+	margin-left: 48px;
+}
+
+.topic .text .top .team {
+	font-size: 24px;
+	color: #000;
+	font-family: "Microsoft YaHei";
+	text-decoration: underline;
+	line-height: 40px;
+}
+
+.topic .text .top .member {
+	font-size: 12px;
+	color: #676767;
+	font-family: "KaiTi";
+	line-height: 10px;
+}
+
+.topic .text .top .big3 {
+	font-size: 110px;
+	color: #75b86b;
+	font-family: "Microsoft YaHei";
+	font-style: italic;
+	margin-left: -20px;
+}
+
+.topic .text .bottom .left {
+	font-size: 55px;
+	color: #cc8091;
+	font-family: "Microsoft YaHei";
+	float: left;
+}
+
+.topic .text .bottom .right {
+	float:left;
+	padding-top: 18px;
+}
+
+.topic .text .bottom .right .westbrook {
+	font-size: 21px;
+	color: #cc8091;
+	font-family: "Microsoft YaHei";
+}
+
+.topic .text .bottom .right .harden {
+	font-size: 12px;
+	color: #cc8091;
+	font-family: "Microsoft YaHei";
+}
+
+/****introduction区域****/
+
+.introduction {
+	width: 892px;
+	margin-top: 40px;
+}
+
+.introduction .durant {
+	width: 28%;
+	float: left;
+	margin-right: 20px;
+}
+
+.introduction .durant h2{
+	font-size: 16px;
+	color: #418c59;
+	text-decoration: underline;
+}
+
+.introduction .westbrook {
+	width: 25%;
+	float: left;
+	margin-right: 20px;
+}
+
+.introduction .westbrook h2{
+	font-size: 16px;
+	color: #d2994f;
+	text-decoration: underline;
+}
+
+.introduction .harden {
+	width: 35%;
+	float: left;
+	margin-right: 20px;
+}
+
+.introduction .harden h2{
+	font-size: 16px;
+	color: #cc7680;
+	text-decoration: underline;
+}
+
+.introduction p {
+	font-size: 12px;
+	color: #767777;
+	font-family: "Microsoft YaHei";
+	line-height: 16px;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	margin-top: 16px;
+}
+
+.introduction .list {
+	float:left;
+	width: 22%;
+
+}
+
+.introduction ul {
+	font-size: 12px;
+	color: #767777;
+	font-family: "Microsoft YaHei";
+	line-height: 16px;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.introduction ul span {
+	color: #cd4a48;
+	font-style: italic;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	margin-top: 16px;
+}
+
+/****content区域****/
+
+.content {
+	width: 892px;
+	margin-top: 50px;
+}
+
+.content .left {
+	width: 415px;
+	float: left;
+}
+
+.content .left .title {
+	font-size: 42px;
+	color: #11456b;
+	font-family: "SimHei";
+	font-weight: bold;
+	line-height: 42px;
+	border-bottom: 2px solid #11456b;
+	padding-bottom: 10px;
+}
+
+.content .left .title span {
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+}
+
+.content .left .title h3 {
+	font-size: 33px;
+}
+
+.content .left .words {
+	margin-top: 30px;
+}
+
+.content .left .words .first-word {
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "Microsoft YaHei";
+	float: left;
+	margin-right: 10px;
+}
+
+.content .left .words p {
+	font-size: 12px;
+	color: #767777;
+	font-family: SimSun;
+	line-height: 16px;
+}
+
+.content .left .words img {
+	float: right;
+	margin: 20px 0 20px 20px; 
+}
+
+.content .right {
+	width: 458px;
+	float: left;
+	margin-left: 19px;
+}
+
+.content .right .right-top {
+	width: 458px;
+	height: 275px;
+	background: url(leave.jpg);
+	position: relative;
+}
+
+.content .right .right-top .bottom {
+	width: 458px;
+	height: 61px;
+	background: rgba(0,0,0,0.5);  /*使用opacity属性时，子元素会继承父级元素的透明属性，用rgba属性时不影响子元素。*/
+	position: absolute;
+	bottom:0;
+}
+
+.content .right .right-top .bottom p {
+	height: 44px;
+	border-left: 3px solid #72b16a;
+	font-size: 26px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	margin-left: 40px;
+	padding-left: 15px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top:auto;
+	margin-bottom: auto;
+}
+
+.content .right .right-top .bottom span {
+	font-size: 12px;
+	font-style: italic;
+	color: #72b16a;
+	margin-left: 5px;
+}
+
+.content .right .right-bottom {
+	width: 458px;
+	height: 318px;
+	background: #eeedd6;
+	margin-top: 35px;
+}
+
+.content .right .right-bottom .right-bottom-top {
+	padding-top: 30px;
+}
+
+.content .right .right-bottom .right-bottom-top ul {
+	margin-left: 50px;
+}
+
+.content .right .right-bottom .right-bottom-top li {
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "Microsoft YaHei";
+	line-height: 28px;
+	letter-spacing: 2px;
+}
+
+.content .right .right-bottom .right-bottom-top li span {
+	font-size: 15px;
+	color: #5a5b5b;
+	font-style: italic;
+}
+
+.content .right .right-bottom .right-bottom-bottom {
+	margin-top: 44px;
+}
+
+.content .right .right-bottom .right-bottom-bottom .left {
+	float: left;
+	background:#d45d5c;
+	width: 260px;
+	height: 160px;
+	padding: 36px 12px;
+	box-sizing: border-box;
+}
+
+.content .right .right-bottom .right-bottom-bottom .zero {
+	font-size: 110px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	float: left;
+	line-height: 88px;
+}
+
+.content .right .right-bottom .right-bottom-bottom .text {
+	height: 100px;
+	border-left: 2px solid #fff;
+	width:160px;
+	float: right;
+	padding-left: 5px;
+}
+
+.content .right .right-bottom .right-bottom-bottom .big-text {
+	font-size: 21px;
+	color: #fff;
+	font-family: SimHei;
+	font-style: italic;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.content .right .right-bottom .right-bottom-bottom .small-text {
+	font-size: 13px;
+	color: #fff;
+	font-family: SimHei;
+	line-height: 16px;
+}
+
+.content .right .right-bottom .right-bottom-bottom .right {
+	float: left;
+	width: 179px;
+	padding:10px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: SimHei;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.content .right .right-bottom .right-bottom-bottom .right .sign1 {
+	font-size: 72px;
+	color: #d45d5c;
+	float: left;
+	height: 0px;
+	margin-top: 14px;
+	margin-left: -50px;
+	margin-right: 20px;
+}
+
+.content .right .right-bottom .right-bottom-bottom .right .sign2 {
+	font-size: 72px;
+	color: #d45d5c;
+	float: right;
+	margin-top: 28px;
+	margin-right: -20px;
+}
+
+.footer {
+	border-top: 1px solid #938e8c;
+	font-size: 14px;
+	color: #d45d5c;
+	font-family: "Microsoft YaHei";
+	text-align:center;
+	margin-top: 30px;
+	height: 60px;
+	line-height: 60px;
+}
